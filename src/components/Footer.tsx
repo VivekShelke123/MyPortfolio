@@ -24,6 +24,7 @@ export default function Footer() {
                     />
                     <button className="mx-2 bg-fuchsia-600 px-3 rounded-lg hover:bg-fuchsia-400">Submit</button>
                 </div>
+                <div><p>© All rights reserved @ Vivek Pradip Shelke.</p></div>
             </div>
         </div>
     );
