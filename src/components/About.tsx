@@ -51,7 +51,7 @@ const About = () => {
                     variants={variants2}
                     className="flex flex-col items-center">
                     <h1 className="text-xl">EDUCATION</h1>
-                    <p className="w-[50%] text-blue-300"> As a final-year Computer Science student with an expected graduation in 2025, my passion lies in web development, where I excel in both frontend and backend technologies. Throughout my academic journey, I've focused on mastering the art of building robust web applications. Actively participating in hackathons and coding competitions has honed my problem-solving skills and cultivated a proactive approach to overcoming challenges. These experiences have equipped me with the expertise to innovate and implement effective solutions that address real-world needs in the realm of web development.</p>
+                    <p className="w-[50%] text-blue-300"> As a final-year Computer Science student with an expected graduation in 2025, my passion lies in web development, where I excel in both frontend and backend technologies. Throughout my academic journey, I have focused on mastering the art of building robust web applications. Actively participating in hackathons and coding competitions has honed my problem-solving skills and cultivated a proactive approach to overcoming challenges. These experiences have equipped me with the expertise to innovate and implement effective solutions that address real-world needs in the realm of web development.</p>
                 </motion.div>
             </div>
             <div className="mt-[5%]">

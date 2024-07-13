@@ -89,12 +89,13 @@ const Project = () => {
       <div className="">
         {ProjectData.map((item) => (
           <motion.div
+            key={item.id}
             ref={item.id <= 2 ? ref2 : ref3}
             animate={item.id <= 2 ? controls2 : controls3}
             initial='hidden'
             variants={item.id % 2 ? variants1 : variants2}
             className="flex flex-col relative items-center">
-            <Card key={item.id} className="mx-10 my-6 w-[70%]">
+            <Card  className="mx-10 my-6 w-[70%]">
               <CardHeader>
                 <CardTitle className="py-3 text-xl">{item.title}</CardTitle>
                 <CardDescription className="text-sm">{item.description}</CardDescription>
